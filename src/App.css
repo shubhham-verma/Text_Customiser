@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2.5s linear;
+  }
+}
+
+.App-header {
+  background-color: #361e08;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+/* .lorem {
+  color: rgb(154, 216, 93);
+  font-family: cursive;
+  padding: 10px;
+  margin: 10px;
+  justify-items: right;
+  border: 5px dashed red;
+} */
+
+/* .navbar {
+  margin: 5px;
+  padding: 5px;
+  border: 1px dashed black;
+  border-radius: 5px;
+} */
+
+.btn {
+  margin: 6px;
+  border-radius: 7px;
+  /* border-width: 5px; */
+  /* border: solid rgb(56, 185, 231); */
+  /* border: solid aquamarine radius 10px width 5px; */
+} 
+
+#exampleFormControlTextarea1 {
+  background-color: rgb(238, 230, 219);
+  border: solid black 1px;
+}
+
+.jumbotron{
+  /* background-color: #d6cba7; */
+  padding: 1rem;
+  margin-bottom: 0rem;
+}
